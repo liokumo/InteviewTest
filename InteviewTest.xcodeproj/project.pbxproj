@@ -7,14 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A96A8311A87C2DF0094B95F /* DataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A96A8271A87C2DF0094B95F /* DataSource.m */; };
+		7A96A8321A87C2DF0094B95F /* ProductEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A96A82A1A87C2DF0094B95F /* ProductEntity.m */; };
+		7A96A8331A87C2DF0094B95F /* StockEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A96A82C1A87C2DF0094B95F /* StockEntity.m */; };
+		7A96A8341A87C2DF0094B95F /* StoreEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A96A82E1A87C2DF0094B95F /* StoreEntity.m */; };
+		7A96A8351A87C2DF0094B95F /* WarehouseEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A96A8301A87C2DF0094B95F /* WarehouseEntity.m */; };
+		7A96A8381A87C3610094B95F /* StockTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A96A8371A87C3610094B95F /* StockTableViewCell.m */; };
+		7A96A83B1A87C5C50094B95F /* StockTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A96A83A1A87C5C50094B95F /* StockTableViewController.m */; };
+		7A96A8411A87D3380094B95F /* FormTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A96A8401A87D3380094B95F /* FormTableViewController.m */; };
 		7AAD00021A86D4A300BFD076 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AAD00001A86D4A300BFD076 /* Main.storyboard */; };
 		7AAD00041A86D4A300BFD076 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AAD00031A86D4A300BFD076 /* Images.xcassets */; };
 		7AAD00071A86D4A300BFD076 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7AAD00051A86D4A300BFD076 /* LaunchScreen.xib */; };
 		7AAD00131A86D4A300BFD076 /* InteviewTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AAD00121A86D4A300BFD076 /* InteviewTestTests.m */; };
+		7AAD001E1A86D63A00BFD076 /* HobbiesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AAD001D1A86D63A00BFD076 /* HobbiesTableViewController.m */; };
+		7AAD00211A86DBF000BFD076 /* HobbyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AAD00201A86DBF000BFD076 /* HobbyViewController.m */; };
 		7AADFFF61A86D4A300BFD076 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AADFFF51A86D4A300BFD076 /* main.m */; };
 		7AADFFF91A86D4A300BFD076 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AADFFF81A86D4A300BFD076 /* AppDelegate.m */; };
-		7AADFFFC1A86D4A300BFD076 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AADFFFB1A86D4A300BFD076 /* FirstViewController.m */; };
-		7AADFFFF1A86D4A300BFD076 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AADFFFE1A86D4A300BFD076 /* SecondViewController.m */; };
+		7ADFDA351A897E9400A51A06 /* music2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7ADFDA341A897E9400A51A06 /* music2.png */; };
+		7ADFDA381A89AB3D00A51A06 /* ProductInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ADFDA371A89AB3D00A51A06 /* ProductInfo.m */; };
+		7AE894CD1A8A5FA600010C77 /* read.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7AE894CC1A8A5FA600010C77 /* read.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,21 +39,42 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7A96A8261A87C2DF0094B95F /* DataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataSource.h; sourceTree = "<group>"; };
+		7A96A8271A87C2DF0094B95F /* DataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataSource.m; sourceTree = "<group>"; };
+		7A96A8281A87C2DF0094B95F /* LocationType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationType.h; sourceTree = "<group>"; };
+		7A96A8291A87C2DF0094B95F /* ProductEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductEntity.h; sourceTree = "<group>"; };
+		7A96A82A1A87C2DF0094B95F /* ProductEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductEntity.m; sourceTree = "<group>"; };
+		7A96A82B1A87C2DF0094B95F /* StockEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StockEntity.h; sourceTree = "<group>"; };
+		7A96A82C1A87C2DF0094B95F /* StockEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StockEntity.m; sourceTree = "<group>"; };
+		7A96A82D1A87C2DF0094B95F /* StoreEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoreEntity.h; sourceTree = "<group>"; };
+		7A96A82E1A87C2DF0094B95F /* StoreEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoreEntity.m; sourceTree = "<group>"; };
+		7A96A82F1A87C2DF0094B95F /* WarehouseEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WarehouseEntity.h; sourceTree = "<group>"; };
+		7A96A8301A87C2DF0094B95F /* WarehouseEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WarehouseEntity.m; sourceTree = "<group>"; };
+		7A96A8361A87C3610094B95F /* StockTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StockTableViewCell.h; path = ../StockTableViewCell.h; sourceTree = "<group>"; };
+		7A96A8371A87C3610094B95F /* StockTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StockTableViewCell.m; path = ../StockTableViewCell.m; sourceTree = "<group>"; };
+		7A96A8391A87C5C50094B95F /* StockTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StockTableViewController.h; sourceTree = "<group>"; };
+		7A96A83A1A87C5C50094B95F /* StockTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StockTableViewController.m; sourceTree = "<group>"; };
+		7A96A83F1A87D3380094B95F /* FormTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FormTableViewController.h; sourceTree = "<group>"; };
+		7A96A8401A87D3380094B95F /* FormTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FormTableViewController.m; sourceTree = "<group>"; };
 		7AAD00011A86D4A300BFD076 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7AAD00031A86D4A300BFD076 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		7AAD00061A86D4A300BFD076 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		7AAD000C1A86D4A300BFD076 /* InteviewTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InteviewTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AAD00111A86D4A300BFD076 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7AAD00121A86D4A300BFD076 /* InteviewTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InteviewTestTests.m; sourceTree = "<group>"; };
+		7AAD001C1A86D63A00BFD076 /* HobbiesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HobbiesTableViewController.h; sourceTree = "<group>"; };
+		7AAD001D1A86D63A00BFD076 /* HobbiesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HobbiesTableViewController.m; sourceTree = "<group>"; };
+		7AAD001F1A86DBF000BFD076 /* HobbyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HobbyViewController.h; sourceTree = "<group>"; };
+		7AAD00201A86DBF000BFD076 /* HobbyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HobbyViewController.m; sourceTree = "<group>"; };
 		7AADFFF01A86D4A300BFD076 /* InteviewTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InteviewTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AADFFF41A86D4A300BFD076 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7AADFFF51A86D4A300BFD076 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7AADFFF71A86D4A300BFD076 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7AADFFF81A86D4A300BFD076 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7AADFFFA1A86D4A300BFD076 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		7AADFFFB1A86D4A300BFD076 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		7AADFFFD1A86D4A300BFD076 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		7AADFFFE1A86D4A300BFD076 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		7ADFDA341A897E9400A51A06 /* music2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = music2.png; sourceTree = "<group>"; };
+		7ADFDA361A89AB3D00A51A06 /* ProductInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductInfo.h; sourceTree = "<group>"; };
+		7ADFDA371A89AB3D00A51A06 /* ProductInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductInfo.m; sourceTree = "<group>"; };
+		7AE894CC1A8A5FA600010C77 /* read.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = read.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +95,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7A96A8251A87C2B50094B95F /* DataClasses */ = {
+			isa = PBXGroup;
+			children = (
+				7A96A8261A87C2DF0094B95F /* DataSource.h */,
+				7A96A8271A87C2DF0094B95F /* DataSource.m */,
+				7A96A8281A87C2DF0094B95F /* LocationType.h */,
+				7A96A8291A87C2DF0094B95F /* ProductEntity.h */,
+				7A96A82A1A87C2DF0094B95F /* ProductEntity.m */,
+				7A96A82B1A87C2DF0094B95F /* StockEntity.h */,
+				7A96A82C1A87C2DF0094B95F /* StockEntity.m */,
+				7A96A82D1A87C2DF0094B95F /* StoreEntity.h */,
+				7A96A82E1A87C2DF0094B95F /* StoreEntity.m */,
+				7A96A82F1A87C2DF0094B95F /* WarehouseEntity.h */,
+				7A96A8301A87C2DF0094B95F /* WarehouseEntity.m */,
+			);
+			name = DataClasses;
+			sourceTree = "<group>";
+		};
 		7AAD000F1A86D4A300BFD076 /* InteviewTestTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +133,8 @@
 		7AADFFE71A86D4A300BFD076 = {
 			isa = PBXGroup;
 			children = (
+				7A96A8251A87C2B50094B95F /* DataClasses */,
+				7AE85B451A87AFDC003F48F0 /* images */,
 				7AADFFF21A86D4A300BFD076 /* InteviewTest */,
 				7AAD000F1A86D4A300BFD076 /* InteviewTestTests */,
 				7AADFFF11A86D4A300BFD076 /* Products */,
@@ -103,14 +155,22 @@
 			children = (
 				7AADFFF71A86D4A300BFD076 /* AppDelegate.h */,
 				7AADFFF81A86D4A300BFD076 /* AppDelegate.m */,
-				7AADFFFA1A86D4A300BFD076 /* FirstViewController.h */,
-				7AADFFFB1A86D4A300BFD076 /* FirstViewController.m */,
-				7AADFFFD1A86D4A300BFD076 /* SecondViewController.h */,
-				7AADFFFE1A86D4A300BFD076 /* SecondViewController.m */,
 				7AAD00001A86D4A300BFD076 /* Main.storyboard */,
 				7AAD00031A86D4A300BFD076 /* Images.xcassets */,
 				7AAD00051A86D4A300BFD076 /* LaunchScreen.xib */,
 				7AADFFF31A86D4A300BFD076 /* Supporting Files */,
+				7AAD001C1A86D63A00BFD076 /* HobbiesTableViewController.h */,
+				7AAD001D1A86D63A00BFD076 /* HobbiesTableViewController.m */,
+				7AAD001F1A86DBF000BFD076 /* HobbyViewController.h */,
+				7AAD00201A86DBF000BFD076 /* HobbyViewController.m */,
+				7A96A8391A87C5C50094B95F /* StockTableViewController.h */,
+				7A96A83A1A87C5C50094B95F /* StockTableViewController.m */,
+				7A96A8361A87C3610094B95F /* StockTableViewCell.h */,
+				7A96A8371A87C3610094B95F /* StockTableViewCell.m */,
+				7A96A83F1A87D3380094B95F /* FormTableViewController.h */,
+				7A96A8401A87D3380094B95F /* FormTableViewController.m */,
+				7ADFDA361A89AB3D00A51A06 /* ProductInfo.h */,
+				7ADFDA371A89AB3D00A51A06 /* ProductInfo.m */,
 			);
 			path = InteviewTest;
 			sourceTree = "<group>";
@@ -122,6 +182,15 @@
 				7AADFFF51A86D4A300BFD076 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7AE85B451A87AFDC003F48F0 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				7AE894CC1A8A5FA600010C77 /* read.gif */,
+				7ADFDA341A897E9400A51A06 /* music2.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -211,8 +280,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7ADFDA351A897E9400A51A06 /* music2.png in Resources */,
 				7AAD00021A86D4A300BFD076 /* Main.storyboard in Resources */,
 				7AAD00071A86D4A300BFD076 /* LaunchScreen.xib in Resources */,
+				7AE894CD1A8A5FA600010C77 /* read.gif in Resources */,
 				7AAD00041A86D4A300BFD076 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -232,10 +303,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7AADFFFF1A86D4A300BFD076 /* SecondViewController.m in Sources */,
+				7A96A8321A87C2DF0094B95F /* ProductEntity.m in Sources */,
 				7AADFFF91A86D4A300BFD076 /* AppDelegate.m in Sources */,
-				7AADFFFC1A86D4A300BFD076 /* FirstViewController.m in Sources */,
+				7ADFDA381A89AB3D00A51A06 /* ProductInfo.m in Sources */,
+				7A96A8381A87C3610094B95F /* StockTableViewCell.m in Sources */,
+				7A96A8341A87C2DF0094B95F /* StoreEntity.m in Sources */,
+				7A96A8311A87C2DF0094B95F /* DataSource.m in Sources */,
 				7AADFFF61A86D4A300BFD076 /* main.m in Sources */,
+				7AAD001E1A86D63A00BFD076 /* HobbiesTableViewController.m in Sources */,
+				7AAD00211A86DBF000BFD076 /* HobbyViewController.m in Sources */,
+				7A96A8351A87C2DF0094B95F /* WarehouseEntity.m in Sources */,
+				7A96A8331A87C2DF0094B95F /* StockEntity.m in Sources */,
+				7A96A83B1A87C5C50094B95F /* StockTableViewController.m in Sources */,
+				7A96A8411A87D3380094B95F /* FormTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,6 +432,7 @@
 				INFOPLIST_FILE = InteviewTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -362,6 +443,7 @@
 				INFOPLIST_FILE = InteviewTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -409,6 +491,7 @@
 				7AAD00181A86D4A300BFD076 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7AAD00191A86D4A300BFD076 /* Build configuration list for PBXNativeTarget "InteviewTestTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +500,7 @@
 				7AAD001B1A86D4A300BFD076 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7AADFFEB1A86D4A300BFD076 /* Build configuration list for PBXProject "InteviewTest" */ = {
 			isa = XCConfigurationList;
